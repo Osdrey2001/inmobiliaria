@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    background-position: center;
+}
+
+header nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+header ul a{
+    color: rgb(0, 0, 0);
+    margin: 0 12px;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header ul a:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#hero{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+padding-top: 10%;
+}
+
+#hero h2{
+    font-size: 80px;
+    color: rgb(0, 59, 62);
+    font-weight: 700;
+}
+
+#hero h1{
+    font-size: 45px;
+    color: #000000;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+
+#hero button{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+
+
+#sobrenosotros{
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+    background: rgb(1, 93, 96);
+}
+
+#sobrenosotros h2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#sobrenosotros p{
+    color: white;
+    margin-top: 60px;
+    font-size: 22px;
+    margin-bottom: 70px;
+}
+
+
+
+
+#propiedades{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background-size: cover;
+}
+
+#propiedades h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#propiedades p{
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#propiedades .fila{
+    display:flex;
+    justify-content: center;
+}
+
+#propiedades article{
+    margin: 25px 65px;
+    position: relative;
+}
+
+#propiedades article img{
+    transition: .4s;
+}
+
+#propiedades article img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+#asesores{
+    width: 100%;
+    padding: 120px 0 50px;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#asesores article img{
+    transition: .4s;
+}
+
+#asesores article img:hover{
+    transform: scale(1.1);
+}
+
+#asesores h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#asesores .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#asesores article{
+    margin: 30px 180px;
+}
+
+#asesores h3{
+    margin-top: 11px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+#ubicacion{
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+#ubicacion iframe{
+    width: 70%;
+}
+
+#ubicacion h2{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 60px;
+}
+
+
+
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background: rgb(1, 93, 96);
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 16px;
+}
+
+#contacto form select{
+    width: 43%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 16px;   
+}
+
+#contacto form textarea{
+    padding: 30px 20px;
+    width: 85%;
+    margin: 16px; 
+
+}
+
+#contacto button{
+    background: #000000;
+    color: white;
+    font-size: 15px;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
